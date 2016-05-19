@@ -23,7 +23,7 @@ Package.onUse(function (api) {
   api.versionsFrom("METEOR@1.0");
   api.use(["mongo-livedata", "webapp", "ejson", "promise@0.6.7"], "server");
   api.use("underscore", ["server", "client"]);
-  api.use(["iron:router@0.9.4||1.0.0"], {weak: true});
+  api.use(["iron:router@0.9.4||1.0.12"], {weak: true});
   api.use("meteorhacks:picker@1.0.0", "server", {weak: true});
 
   api.addFiles([
